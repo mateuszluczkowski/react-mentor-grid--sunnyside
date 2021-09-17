@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/react-mentor-grid--sunnyside/static/js/main.d33279fb.chunk.js",
+    "main.js.map": "/react-mentor-grid--sunnyside/static/js/main.d33279fb.chunk.js.map",
+    "runtime-main.js": "/react-mentor-grid--sunnyside/static/js/runtime-main.8985b8c0.js",
+    "runtime-main.js.map": "/react-mentor-grid--sunnyside/static/js/runtime-main.8985b8c0.js.map",
+    "static/js/2.107da02c.chunk.js": "/react-mentor-grid--sunnyside/static/js/2.107da02c.chunk.js",
+    "static/js/2.107da02c.chunk.js.map": "/react-mentor-grid--sunnyside/static/js/2.107da02c.chunk.js.map",
+    "index.html": "/react-mentor-grid--sunnyside/index.html",
+    "static/js/2.107da02c.chunk.js.LICENSE.txt": "/react-mentor-grid--sunnyside/static/js/2.107da02c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8985b8c0.js",
+    "static/js/2.107da02c.chunk.js",
+    "static/js/main.d33279fb.chunk.js"
+  ]
+}

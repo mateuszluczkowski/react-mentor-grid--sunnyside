@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-mentor-grid-sunnyside"]=this["webpackJsonpreact-mentor-grid-sunnyside"]||[]).push([[0],{9:function(e,n,t){"use strict";t.r(n);var r=t(1),c=t.n(r),s=t(3),i=t.n(s),d=t(0);var o=function(){return Object(d.jsx)("div",{children:"Hello"})},a=document.getElementById("root");i.a.render(Object(d.jsx)(c.a.StrictMode,{children:Object(d.jsx)(o,{})}),a)}},[[9,1,2]]]);
+//# sourceMappingURL=main.d33279fb.chunk.js.map
