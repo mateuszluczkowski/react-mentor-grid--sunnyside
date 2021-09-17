@@ -26,13 +26,9 @@ const theme = {
       fontSize: "18px",
       family: {
          barlow: {
-            import:
-               "https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap",
             rules: "'Barlow', sans-serif",
          },
          fraunces: {
-            import:
-               "https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700;900&display=swap",
             rules: "'Fraunces', serif",
          },
       },
