@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 #root, body {
-    background: #FBFBFB;
+    background: #EFEFEF;
     font-family: ${({ theme }) => theme.font.family.barlow.rules};
     font-size: ${({ theme }) => theme.font.fontSize};
     min-height: 100vh;

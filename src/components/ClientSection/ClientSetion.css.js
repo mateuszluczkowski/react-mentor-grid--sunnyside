@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ClientWrapper = styled.div`
+   background-color: ${({ theme }) => theme.colors.neutral.white};
    grid-area: client;
    display: flex;
    height: 750px;

@@ -17,7 +17,6 @@ const Picture = styled.img.attrs(({ picture, alt }) => ({
 `;
 
 const Gallery = () => {
-   console.log(gallery);
    return (
       <GalleryWrapper>
          {gallery.map(({ id, picture, alt }) => (
