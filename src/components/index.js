@@ -3,3 +3,7 @@ export { default as Nav } from "./Nav";
 export { default as Header } from "./Header";
 export { default as Main } from "./Main";
 export { default as Tile } from "./Tile";
+export { default as ClientSection } from "./ClientSection";
+export { default as ClientReview } from "./ClientReview";
+export { default as Gallery } from "./Gallery";
+export { default as Footer } from "./Footer";

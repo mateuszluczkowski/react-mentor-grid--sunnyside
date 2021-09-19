@@ -10,6 +10,7 @@ export const NavWrapper = styled.ul`
 `;
 export const LogoWrapper = styled.div`
    flex-grow: 1;
+   z-index: 0;
 `;
 
 export const Logo = styled.img.attrs(({ path }) => ({

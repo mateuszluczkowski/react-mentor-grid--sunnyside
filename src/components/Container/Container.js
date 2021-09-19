@@ -1,8 +1,13 @@
 import styled from "styled-components";
-
-const Container = styled.div`
+const Wrapper = styled.div`
+   width: 100%;
    display: grid;
-   grid-template-columns: 1fr;
+   place-items: center center;
+`;
+const Content = styled.div`
+   display: grid;
+
+   grid-template-columns: ${({ theme }) => theme.layout.desktop};
    grid-template-rows: repeat(5, auto);
    grid-template-areas:
       "header"
@@ -10,10 +15,13 @@ const Container = styled.div`
       "client"
       "gallery"
       "footer";
-
-   position: relative;
-   left: 50%;
-   transform: translateX(-50%);
-   width: ${({ theme }) => theme.layout.desktop};
 `;
+
+const Container = ({ children }) => {
+   return (
+      <Wrapper>
+         <Content>{children}</Content>
+      </Wrapper>
+   );
+};
 export default Container;

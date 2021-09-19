@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderWrapper = styled.ul`
+export const HeaderWrapper = styled.div`
    grid-area: header;
    position: relative;
    width: 100%;
@@ -13,7 +13,6 @@ export const BackgroundImage = styled.img.attrs(({ background }) => ({
    position: absolute;
    top: 0;
    left: 0;
-   z-index: -5;
 `;
 export const Text = styled.div`
    display: inline-block;

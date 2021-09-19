@@ -5,7 +5,14 @@ import { Helmet } from "react-helmet";
 import GlobalStyle from "utils/GlobalStyle";
 import theme from "utils/theme";
 
-import { Container, Header, Main } from "components";
+import {
+   ClientSection,
+   Container,
+   Footer,
+   Header,
+   Gallery,
+   Main,
+} from "components";
 
 function App() {
    return (
@@ -27,6 +34,9 @@ function App() {
             <Container>
                <Header />
                <Main />
+               <ClientSection />
+               <Gallery />
+               <Footer />
             </Container>
          </ThemeProvider>
       </>

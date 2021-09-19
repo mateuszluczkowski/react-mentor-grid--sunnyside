@@ -13,6 +13,7 @@ const theme = {
          DarkBlue: "hsl(198, 62%, 26%)",
          //  (footer)
          DarkModerateCyan: "hsl(168, 34%, 41%)",
+         LightModerateCyan: "hsl(167, 44%, 70%)",
       },
       neutral: {
          veryDarkDesaturatedBlue: "hsl(212, 27%, 19%)",
