@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.js": "/react-mentor-grid--sunnyside/static/js/main.7a10cdf2.chunk.js",
-    "main.js.map": "/react-mentor-grid--sunnyside/static/js/main.7a10cdf2.chunk.js.map",
+    "main.js": "/react-mentor-grid--sunnyside/static/js/main.608bb0e3.chunk.js",
+    "main.js.map": "/react-mentor-grid--sunnyside/static/js/main.608bb0e3.chunk.js.map",
     "runtime-main.js": "/react-mentor-grid--sunnyside/static/js/runtime-main.8985b8c0.js",
     "runtime-main.js.map": "/react-mentor-grid--sunnyside/static/js/runtime-main.8985b8c0.js.map",
     "static/css/2.679831fc.chunk.css": "/react-mentor-grid--sunnyside/static/css/2.679831fc.chunk.css",
-    "static/js/2.d2ee5823.chunk.js": "/react-mentor-grid--sunnyside/static/js/2.d2ee5823.chunk.js",
-    "static/js/2.d2ee5823.chunk.js.map": "/react-mentor-grid--sunnyside/static/js/2.d2ee5823.chunk.js.map",
+    "static/js/2.fd338f39.chunk.js": "/react-mentor-grid--sunnyside/static/js/2.fd338f39.chunk.js",
+    "static/js/2.fd338f39.chunk.js.map": "/react-mentor-grid--sunnyside/static/js/2.fd338f39.chunk.js.map",
     "index.html": "/react-mentor-grid--sunnyside/index.html",
     "static/css/2.679831fc.chunk.css.map": "/react-mentor-grid--sunnyside/static/css/2.679831fc.chunk.css.map",
-    "static/js/2.d2ee5823.chunk.js.LICENSE.txt": "/react-mentor-grid--sunnyside/static/js/2.d2ee5823.chunk.js.LICENSE.txt",
+    "static/js/2.fd338f39.chunk.js.LICENSE.txt": "/react-mentor-grid--sunnyside/static/js/2.fd338f39.chunk.js.LICENSE.txt",
     "static/media/icon-arrow-down.979ef07a.svg": "/react-mentor-grid--sunnyside/static/media/icon-arrow-down.979ef07a.svg",
+    "static/media/image-gallery-cone.461ff421.jpg": "/react-mentor-grid--sunnyside/static/media/image-gallery-cone.461ff421.jpg",
+    "static/media/image-gallery-milkbottles.df1d9d84.jpg": "/react-mentor-grid--sunnyside/static/media/image-gallery-milkbottles.df1d9d84.jpg",
+    "static/media/image-gallery-orange.49f4212b.jpg": "/react-mentor-grid--sunnyside/static/media/image-gallery-orange.49f4212b.jpg",
+    "static/media/image-gallery-sugarcubes.09b72f4f.jpg": "/react-mentor-grid--sunnyside/static/media/image-gallery-sugarcubes.09b72f4f.jpg",
     "static/media/image-graphic-design.7ac8bdf0.jpg": "/react-mentor-grid--sunnyside/static/media/image-graphic-design.7ac8bdf0.jpg",
     "static/media/image-header.49b52ffa.jpg": "/react-mentor-grid--sunnyside/static/media/image-header.49b52ffa.jpg",
     "static/media/image-photography.104cf40b.jpg": "/react-mentor-grid--sunnyside/static/media/image-photography.104cf40b.jpg",
@@ -19,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.8985b8c0.js",
     "static/css/2.679831fc.chunk.css",
-    "static/js/2.d2ee5823.chunk.js",
-    "static/js/main.7a10cdf2.chunk.js"
+    "static/js/2.fd338f39.chunk.js",
+    "static/js/main.608bb0e3.chunk.js"
   ]
 }
