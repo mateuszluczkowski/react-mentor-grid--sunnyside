@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 #root, body {
+    max-width:100vw;
     background: #EFEFEF;
     font-family: ${({ theme }) => theme.font.family.barlow.rules};
     font-size: ${({ theme }) => theme.font.fontSize};

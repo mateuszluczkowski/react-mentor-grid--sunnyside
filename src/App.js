@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { ThemeProvider } from "styled-components";
 import "normalize.css";
 import { Helmet } from "react-helmet";
@@ -15,6 +16,13 @@ import {
 } from "components";
 
 function App() {
+   const [isMobile, setIsMobile] = useState(false);
+   const checkIsMobile = () => {
+      if (window.innerWidth < 980) return setIsMobile(true);
+      else return setIsMobile(false);
+   };
+   window.onresize = checkIsMobile;
+   useEffect(() => checkIsMobile());
    return (
       <>
          <Helmet>
@@ -32,10 +40,10 @@ function App() {
          <ThemeProvider theme={theme}>
             <GlobalStyle />
             <Container>
-               <Header />
-               <Main />
+               <Header isMobile={isMobile} />
+               <Main isMobile={isMobile} />
                <ClientSection />
-               <Gallery />
+               <Gallery isMobile={isMobile} />
                <Footer />
             </Container>
          </ThemeProvider>

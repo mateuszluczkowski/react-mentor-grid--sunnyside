@@ -3,18 +3,24 @@ import standOutPicture from "assets/img/desktop/image-stand-out.jpg";
 import graphicDesignPicture from "assets/img/desktop/image-graphic-design.jpg";
 import photographyPicture from "assets/img/desktop/image-photography.jpg";
 
+import transformPictureMobile from "assets/img/mobile/image-transform.jpg";
+import standOutPictureMobile from "assets/img/mobile/image-stand-out.jpg";
+import graphicDesignPictureMobile from "assets/img/mobile/image-graphic-design.jpg";
+import photographyPictureMobile from "assets/img/mobile/image-photography.jpg";
+
 export const backgroundTiles = [
-   null,
-   transformPicture,
-   standOutPicture,
-   null,
-   graphicDesignPicture,
-   photographyPicture,
+   {},
+   { desktop: transformPicture, mobile: transformPictureMobile },
+   { desktop: standOutPicture, mobile: standOutPictureMobile },
+   {},
+   { desktop: graphicDesignPicture, mobile: graphicDesignPictureMobile },
+   { desktop: photographyPicture, mobile: photographyPictureMobile },
 ];
 
 export const tiles = [
    {
       id: 1,
+      grid: "tile1",
       backgroundIndex: 0,
       text: {
          title: "Transform your brand",
@@ -24,6 +30,7 @@ export const tiles = [
    },
    {
       id: 2,
+      grid: "tile2",
       backgroundIndex: 1,
       text: {
          title: "",
@@ -33,6 +40,7 @@ export const tiles = [
    },
    {
       id: 3,
+      grid: "tile3",
       backgroundIndex: 2,
       text: {
          title: "",
@@ -42,6 +50,7 @@ export const tiles = [
    },
    {
       id: 4,
+      grid: "tile4",
       backgroundIndex: 3,
       text: {
          title: "Stand out to the right audience",
@@ -51,6 +60,7 @@ export const tiles = [
    },
    {
       id: 5,
+      grid: "tile5",
       backgroundIndex: 4,
       text: {
          title: "Graphic Design",
@@ -60,6 +70,7 @@ export const tiles = [
    },
    {
       id: 6,
+      grid: "tile6",
       backgroundIndex: 5,
       text: {
          title: "Photography",

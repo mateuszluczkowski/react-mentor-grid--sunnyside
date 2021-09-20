@@ -16,11 +16,17 @@ const Picture = styled.img.attrs(({ picture, alt }) => ({
    width: 100%;
 `;
 
-const Gallery = () => {
+const Gallery = ({ isMobile }) => {
+   console.log(isMobile);
    return (
       <GalleryWrapper>
-         {gallery.map(({ id, picture, alt }) => (
-            <Picture key={id} id={id} picture={picture} alt={alt} />
+         {gallery.map(({ id, desktop, mobile, alt }) => (
+            <Picture
+               key={id}
+               id={id}
+               picture={isMobile ? mobile : desktop}
+               alt={alt}
+            />
          ))}
       </GalleryWrapper>
    );
