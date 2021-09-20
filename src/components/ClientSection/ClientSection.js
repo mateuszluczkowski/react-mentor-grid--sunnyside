@@ -11,6 +11,7 @@ const ClientSection = () => {
             {clientReviews.map(({ id, name, profession, review, picture }) => (
                <ClientReview
                   key={id}
+                  id={id}
                   name={name}
                   profession={profession}
                   review={review}

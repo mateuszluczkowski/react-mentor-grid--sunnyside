@@ -6,9 +6,9 @@ import {
    ClientProfession,
 } from "./ClientReview.css";
 
-const ClientReview = ({ name, profession, review, picture }) => {
+const ClientReview = ({ id, name, profession, review, picture }) => {
    return (
-      <ClientWrapper>
+      <ClientWrapper id={id}>
          <Portrait picture={picture} />
          <Review>{review}</Review>
          <ClientName>{name}</ClientName>
