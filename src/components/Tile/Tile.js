@@ -8,7 +8,6 @@ import {
    WhiteBackground,
 } from "./Tile.css";
 const Tile = ({ background, button, id, text, title, gridArea }) => {
-   console.log(gridArea);
    return (
       <TileWrapper gridArea={gridArea}>
          <ContentWrapper button={button}>
