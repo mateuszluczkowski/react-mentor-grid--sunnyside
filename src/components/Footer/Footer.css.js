@@ -49,4 +49,9 @@ export const SocialMediaIcon = styled.img.attrs(({ icon }) => ({
    src: icon,
 }))`
    margin: 15px;
+   cursor: pointer;
+   transition: 0.4s;
+   &:hover {
+      filter: grayscale(100%) brightness(200%) saturate(0%) contrast(1000%);
+   }
 `;
