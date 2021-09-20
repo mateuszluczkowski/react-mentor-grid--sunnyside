@@ -36,6 +36,11 @@ export const Menu = styled.ul`
 `;
 export const MenuItem = styled.li`
    margin: 25px;
+   cursor: pointer;
+   transition: 0.4s;
+   &:hover {
+      color: ${({ theme }) => theme.colors.neutral.white};
+   }
 `;
 export const SocialMedia = styled.div`
    text-align: center;

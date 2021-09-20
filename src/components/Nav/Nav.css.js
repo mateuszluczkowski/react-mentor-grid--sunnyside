@@ -89,6 +89,11 @@ export const Link = styled.li`
       padding: 20px 30px;
       border-radius: 50px 50px;
       z-index: 1;
+      transition: 0.4s;
+      &:hover {
+         background: rgba(255, 255, 255, 0.3);
+         color: rgba(255, 255, 255, 0.9);
+      }
       @media (max-width: 980px) {
          background: ${({ theme }) => theme.colors.primary.Yellow};
       }

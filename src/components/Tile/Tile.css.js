@@ -66,6 +66,7 @@ export const Button = styled.button`
    font-size: 16px;
    letter-spacing: 1px;
    z-index: 1;
+   cursor: pointer;
    &::after {
       content: "";
       position: absolute;
